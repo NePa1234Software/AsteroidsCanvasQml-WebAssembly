@@ -19,7 +19,7 @@ See the license file and License Folder for details
 ## Known Issues
 WebAssembly multi-threaded will not start - ReferenceError: SharedArrayBuffer is not defined !!
 
-WebAssembly single-threaded is not brilliant regarding performance, especially on android. 
+WebAssembly single-threaded is not brilliant regarding performance, especially on android / chrome. Firefox is the best and can be configured to allow some space for game play. Unfortunately there is no full screen mode in the browser. 
 
 The timer is blocked for a short while on every user interaction.
 I have reduce a large number of console logs to get an acceptable flow on Windows Desktop.
